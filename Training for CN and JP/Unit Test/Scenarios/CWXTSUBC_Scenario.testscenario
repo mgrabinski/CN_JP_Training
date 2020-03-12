@@ -34,6 +34,9 @@
       </testcase:input>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+        <checkconditions:simpleCheckcondition>
+          <checkconditions:expectation/>
+        </checkconditions:simpleCheckcondition>
       </testcase:checkconditions>
       <testcase:stubs/>
       <testcase:returncode listructure="../Structures/CWXTSUBC_RETURN-CODE.listructure#Unit%20Test/Structures/CWXTSUBC_RETURN-CODE.listructure">
@@ -74,6 +77,9 @@
           </properties:properties>
         </testcase:data>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
       </testcase:checkconditions>
@@ -96,7 +102,7 @@
         <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
           <properties:properties>
             <properties:property name="value" type="string">D4</properties:property>
-            <properties:property name="expectedValue" type="string">E2</properties:property>
+            <properties:property name="expectedValue" type="string">D4</properties:property>
           </properties:properties>
         </testcase:data>
       </testcase:input>
@@ -104,7 +110,7 @@
         <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_SALES-AMOUNT.listructure#SALES_AMOUNT" id="arg1.SALES_AMOUNT">
           <properties:properties>
             <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
-            <properties:property name="expectedValue" type="string">F0F2F5F0F0F0F0F0</properties:property>
+            <properties:property name="expectedValue" type="string">F0F7F5F0F0F0F0F0</properties:property>
           </properties:properties>
         </testcase:data>
       </testcase:input>
@@ -112,10 +118,17 @@
         <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
           <properties:properties>
             <properties:property name="value" type="string">0000000F</properties:property>
-            <properties:property name="expectedValue" type="string">0100000F</properties:property>
+            <properties:property name="expectedValue" type="string">0300000F</properties:property>
           </properties:properties>
         </testcase:data>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTSUBC_COMM-TOTAL.listructure#COMM_TOTAL.COMM_TOTAL" id="input.arg2.COMM_TOTAL.COMM_TOTAL"/>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
       </testcase:checkconditions>

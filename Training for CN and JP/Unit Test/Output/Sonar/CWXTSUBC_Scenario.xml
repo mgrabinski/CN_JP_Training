@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.1.2.v20200113-1234_111?>
+<!--Topaz for Total Test 20.1.2.v20200113-1234_111 Mar 12, 2020 2:33:43 AM-->
+<testExecutions version="1">
+  <file path="C:\Users\cwpl-mgrabins\git\TTT_repository\Training for CN and JP\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="Training for CN and JP.CWXTSUBC_Scenario.00001: CWXTSUBCCase1.00001: Check for RETURN_CODE"/>
+    <testCase duration="0" name="Training for CN and JP.CWXTSUBC_Scenario.00001: CWXTSUBCCase1.00002: Check for EMP_TYPE"/>
+    <testCase duration="0" name="Training for CN and JP.CWXTSUBC_Scenario.00001: CWXTSUBCCase1.00003: Check for SALES_AMOUNT"/>
+    <testCase duration="0" name="Training for CN and JP.CWXTSUBC_Scenario.00001: CWXTSUBCCase1.00004: Check for COMM_TOTAL"/>
+  </file>
+  <file path="C:\Users\cwpl-mgrabins\git\TTT_repository\Training for CN and JP\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="Training for CN and JP.CWXTSUBC_Scenario.00002: CWXTSUBCCase2.00001: Check for RETURN_CODE"/>
+    <testCase duration="0" name="Training for CN and JP.CWXTSUBC_Scenario.00002: CWXTSUBCCase2.00002: Check for EMP_TYPE"/>
+    <testCase duration="0" name="Training for CN and JP.CWXTSUBC_Scenario.00002: CWXTSUBCCase2.00003: Check for SALES_AMOUNT"/>
+    <testCase duration="0" name="Training for CN and JP.CWXTSUBC_Scenario.00002: CWXTSUBCCase2.00004: Check for COMM_TOTAL"/>
+  </file>
+  <file path="C:\Users\cwpl-mgrabins\git\TTT_repository\Training for CN and JP\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="Training for CN and JP.CWXTSUBC_Scenario.00003: CWXTSUBCCase3.00001: Check for RETURN_CODE"/>
+    <testCase duration="0" name="Training for CN and JP.CWXTSUBC_Scenario.00003: CWXTSUBCCase3.00002: Check for EMP_TYPE"/>
+    <testCase duration="0" name="Training for CN and JP.CWXTSUBC_Scenario.00003: CWXTSUBCCase3.00003: Check for SALES_AMOUNT"/>
+    <testCase duration="0" name="Training for CN and JP.CWXTSUBC_Scenario.00003: CWXTSUBCCase3.00004: Check for COMM_TOTAL">
+      <failure message="Check for COMM_TOTAL failed">Check for COMM_TOTAL failed
+
+Actual Value:    1500.00
+
+Expected Value:  = 3000.00</failure>
+    </testCase>
+  </file>
+</testExecutions>

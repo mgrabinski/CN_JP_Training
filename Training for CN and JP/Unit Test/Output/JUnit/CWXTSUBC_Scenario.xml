@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.1.2.v20200113-1234_111?>
+<!--Topaz for Total Test 20.1.2.v20200113-1234_111 Mar 12, 2020 2:33:43 AM-->
+<testsuites>
+  <testsuite errors="0" failures="0" name="Training for CN and JP.CWXTSUBC_Scenario.00001: CWXTSUBCCase1" tests="4">
+    <testcase classname="Training for CN and JP.CWXTSUBC_Scenario.00001: CWXTSUBCCase1" name="00001: Check for RETURN_CODE"/>
+    <testcase classname="Training for CN and JP.CWXTSUBC_Scenario.00001: CWXTSUBCCase1" name="00002: Check for EMP_TYPE"/>
+    <testcase classname="Training for CN and JP.CWXTSUBC_Scenario.00001: CWXTSUBCCase1" name="00003: Check for SALES_AMOUNT"/>
+    <testcase classname="Training for CN and JP.CWXTSUBC_Scenario.00001: CWXTSUBCCase1" name="00004: Check for COMM_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="Training for CN and JP.CWXTSUBC_Scenario.00002: CWXTSUBCCase2" tests="4">
+    <testcase classname="Training for CN and JP.CWXTSUBC_Scenario.00002: CWXTSUBCCase2" name="00001: Check for RETURN_CODE"/>
+    <testcase classname="Training for CN and JP.CWXTSUBC_Scenario.00002: CWXTSUBCCase2" name="00002: Check for EMP_TYPE"/>
+    <testcase classname="Training for CN and JP.CWXTSUBC_Scenario.00002: CWXTSUBCCase2" name="00003: Check for SALES_AMOUNT"/>
+    <testcase classname="Training for CN and JP.CWXTSUBC_Scenario.00002: CWXTSUBCCase2" name="00004: Check for COMM_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="Training for CN and JP.CWXTSUBC_Scenario.00003: CWXTSUBCCase3" tests="4">
+    <testcase classname="Training for CN and JP.CWXTSUBC_Scenario.00003: CWXTSUBCCase3" name="00001: Check for RETURN_CODE"/>
+    <testcase classname="Training for CN and JP.CWXTSUBC_Scenario.00003: CWXTSUBCCase3" name="00002: Check for EMP_TYPE"/>
+    <testcase classname="Training for CN and JP.CWXTSUBC_Scenario.00003: CWXTSUBCCase3" name="00003: Check for SALES_AMOUNT"/>
+    <testcase classname="Training for CN and JP.CWXTSUBC_Scenario.00003: CWXTSUBCCase3" name="00004: Check for COMM_TOTAL">
+      <failure>Check for COMM_TOTAL failed
+
+Actual Value:    1500.00
+
+Expected Value:  = 3000.00</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
